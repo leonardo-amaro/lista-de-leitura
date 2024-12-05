@@ -10,5 +10,11 @@
     <button id="addButton" type="submit">Adicionar</button>
   </div>
   <h3>Minhas leituras</h3>
-  <ul></ul>
+  <ul>
+    {{#each livros}}
+      <li>
+        {{nome}}
+      </li>
+    {{/each}}
+  </ul>
 </main>
