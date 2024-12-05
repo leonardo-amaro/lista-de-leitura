@@ -7,10 +7,10 @@
   "name": "app-leitura",
   "version": "1.0.0",
   "description": "Uma aplicação que torne possível ao usuário registrar quantos e quais livros já leu.",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Leonardo Silva",
